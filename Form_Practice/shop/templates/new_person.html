@@ -1,0 +1,5 @@
+<h2>New Person</h2>
+<form method="POST" class= "class-form"> {% csrf_token %}
+    {{ form.as_p }}
+    <button type="Submit" class="save btn btn-default">Submit</button>
+</form>
